@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346BD8811DE1367400CB18E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BD8801DE1367400CB18E1 /* AppDelegate.swift */; };
+		346BD8861DE1367400CB18E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346BD8841DE1367400CB18E1 /* Main.storyboard */; };
+		346BD8881DE1367400CB18E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346BD8871DE1367400CB18E1 /* Assets.xcassets */; };
+		346BD88B1DE1367400CB18E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346BD8891DE1367400CB18E1 /* LaunchScreen.storyboard */; };
+		346BD8931DE1378900CB18E1 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BD8921DE1378900CB18E1 /* NavController.swift */; };
+		346BD8951DE139C200CB18E1 /* ViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BD8941DE139C200CB18E1 /* ViewControllerMenu.swift */; };
+		346BD8971DE15D1700CB18E1 /* ViewControllerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BD8961DE15D1700CB18E1 /* ViewControllerGame.swift */; };
+		346BD8991DE1659000CB18E1 /* ViewControllerScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346BD8981DE1659000CB18E1 /* ViewControllerScores.swift */; };
+		34CDBD0C1DE66CC80079C2EB /* 03jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34CDBD061DE66CC80079C2EB /* 03jump.mp3 */; };
+		34CDBD0D1DE66CC80079C2EB /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34CDBD071DE66CC80079C2EB /* sound1.mp3 */; };
+		34CDBD0E1DE66CC80079C2EB /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34CDBD081DE66CC80079C2EB /* sound2.mp3 */; };
+		34CDBD0F1DE66CC80079C2EB /* sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34CDBD091DE66CC80079C2EB /* sound3.mp3 */; };
+		34CDBD101DE66CC80079C2EB /* sound4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34CDBD0A1DE66CC80079C2EB /* sound4.mp3 */; };
+		34CDBD111DE66CC80079C2EB /* sound5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34CDBD0B1DE66CC80079C2EB /* sound5.mp3 */; };
+		34DD83951DEFC004008D2B1D /* 01slap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34DD838F1DEFC004008D2B1D /* 01slap.mp3 */; };
+		34DD83961DEFC004008D2B1D /* 02shatter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34DD83901DEFC004008D2B1D /* 02shatter.mp3 */; };
+		34DD83971DEFC004008D2B1D /* 04electric.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34DD83911DEFC004008D2B1D /* 04electric.mp3 */; };
+		34DD83981DEFC004008D2B1D /* 05doorbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34DD83921DEFC004008D2B1D /* 05doorbell.mp3 */; };
+		34DD83991DEFC004008D2B1D /* 06squeaky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34DD83931DEFC004008D2B1D /* 06squeaky.mp3 */; };
+		34DD839A1DEFC004008D2B1D /* 99wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34DD83941DEFC004008D2B1D /* 99wrong.mp3 */; };
+		34E8F2351DF89115009137EB /* 99correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34E8F2341DF89115009137EB /* 99correct.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		346BD87D1DE1367400CB18E1 /* SB-Final-Soundz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SB-Final-Soundz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		346BD8801DE1367400CB18E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		346BD8851DE1367400CB18E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		346BD8871DE1367400CB18E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		346BD88A1DE1367400CB18E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		346BD88C1DE1367400CB18E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346BD8921DE1378900CB18E1 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		346BD8941DE139C200CB18E1 /* ViewControllerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerMenu.swift; path = ../ViewControllerMenu.swift; sourceTree = "<group>"; };
+		346BD8961DE15D1700CB18E1 /* ViewControllerGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGame.swift; sourceTree = "<group>"; };
+		346BD8981DE1659000CB18E1 /* ViewControllerScores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerScores.swift; sourceTree = "<group>"; };
+		34CDBD061DE66CC80079C2EB /* 03jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 03jump.mp3; sourceTree = "<group>"; };
+		34CDBD071DE66CC80079C2EB /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		34CDBD081DE66CC80079C2EB /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
+		34CDBD091DE66CC80079C2EB /* sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound3.mp3; sourceTree = "<group>"; };
+		34CDBD0A1DE66CC80079C2EB /* sound4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound4.mp3; sourceTree = "<group>"; };
+		34CDBD0B1DE66CC80079C2EB /* sound5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound5.mp3; sourceTree = "<group>"; };
+		34DD838F1DEFC004008D2B1D /* 01slap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 01slap.mp3; sourceTree = "<group>"; };
+		34DD83901DEFC004008D2B1D /* 02shatter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 02shatter.mp3; sourceTree = "<group>"; };
+		34DD83911DEFC004008D2B1D /* 04electric.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 04electric.mp3; sourceTree = "<group>"; };
+		34DD83921DEFC004008D2B1D /* 05doorbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 05doorbell.mp3; sourceTree = "<group>"; };
+		34DD83931DEFC004008D2B1D /* 06squeaky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 06squeaky.mp3; sourceTree = "<group>"; };
+		34DD83941DEFC004008D2B1D /* 99wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 99wrong.mp3; sourceTree = "<group>"; };
+		34E8F2341DF89115009137EB /* 99correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 99correct.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		346BD87A1DE1367300CB18E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346BD8741DE1367200CB18E1 = {
+			isa = PBXGroup;
+			children = (
+				34CDBD051DE66C8F0079C2EB /* Supporting Files */,
+				346BD87F1DE1367400CB18E1 /* SB-Final-Soundz */,
+				346BD87E1DE1367400CB18E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		346BD87E1DE1367400CB18E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346BD87D1DE1367400CB18E1 /* SB-Final-Soundz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		346BD87F1DE1367400CB18E1 /* SB-Final-Soundz */ = {
+			isa = PBXGroup;
+			children = (
+				346BD8801DE1367400CB18E1 /* AppDelegate.swift */,
+				346BD8921DE1378900CB18E1 /* NavController.swift */,
+				346BD8941DE139C200CB18E1 /* ViewControllerMenu.swift */,
+				346BD8961DE15D1700CB18E1 /* ViewControllerGame.swift */,
+				346BD8981DE1659000CB18E1 /* ViewControllerScores.swift */,
+				346BD8841DE1367400CB18E1 /* Main.storyboard */,
+				346BD8871DE1367400CB18E1 /* Assets.xcassets */,
+				346BD8891DE1367400CB18E1 /* LaunchScreen.storyboard */,
+				346BD88C1DE1367400CB18E1 /* Info.plist */,
+			);
+			path = "SB-Final-Soundz";
+			sourceTree = "<group>";
+		};
+		34CDBD051DE66C8F0079C2EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34DD838F1DEFC004008D2B1D /* 01slap.mp3 */,
+				34DD83901DEFC004008D2B1D /* 02shatter.mp3 */,
+				34CDBD061DE66CC80079C2EB /* 03jump.mp3 */,
+				34DD83911DEFC004008D2B1D /* 04electric.mp3 */,
+				34DD83921DEFC004008D2B1D /* 05doorbell.mp3 */,
+				34DD83931DEFC004008D2B1D /* 06squeaky.mp3 */,
+				34E8F2341DF89115009137EB /* 99correct.mp3 */,
+				34DD83941DEFC004008D2B1D /* 99wrong.mp3 */,
+				34CDBD071DE66CC80079C2EB /* sound1.mp3 */,
+				34CDBD081DE66CC80079C2EB /* sound2.mp3 */,
+				34CDBD091DE66CC80079C2EB /* sound3.mp3 */,
+				34CDBD0A1DE66CC80079C2EB /* sound4.mp3 */,
+				34CDBD0B1DE66CC80079C2EB /* sound5.mp3 */,
+			);
+			name = "Supporting Files";
+			path = "SB-Final-Soundz";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		346BD87C1DE1367300CB18E1 /* SB-Final-Soundz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346BD88F1DE1367400CB18E1 /* Build configuration list for PBXNativeTarget "SB-Final-Soundz" */;
+			buildPhases = (
+				346BD8791DE1367300CB18E1 /* Sources */,
+				346BD87A1DE1367300CB18E1 /* Frameworks */,
+				346BD87B1DE1367300CB18E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SB-Final-Soundz";
+			productName = "SB-Final-Soundz";
+			productReference = 346BD87D1DE1367400CB18E1 /* SB-Final-Soundz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		346BD8751DE1367200CB18E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ssd;
+				TargetAttributes = {
+					346BD87C1DE1367300CB18E1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5PYB48LZVD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 346BD8781DE1367200CB18E1 /* Build configuration list for PBXProject "SB-Final-Soundz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 346BD8741DE1367200CB18E1;
+			productRefGroup = 346BD87E1DE1367400CB18E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				346BD87C1DE1367300CB18E1 /* SB-Final-Soundz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		346BD87B1DE1367300CB18E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DD839A1DEFC004008D2B1D /* 99wrong.mp3 in Resources */,
+				34DD83981DEFC004008D2B1D /* 05doorbell.mp3 in Resources */,
+				34CDBD0D1DE66CC80079C2EB /* sound1.mp3 in Resources */,
+				346BD88B1DE1367400CB18E1 /* LaunchScreen.storyboard in Resources */,
+				34CDBD111DE66CC80079C2EB /* sound5.mp3 in Resources */,
+				34DD83971DEFC004008D2B1D /* 04electric.mp3 in Resources */,
+				346BD8881DE1367400CB18E1 /* Assets.xcassets in Resources */,
+				346BD8861DE1367400CB18E1 /* Main.storyboard in Resources */,
+				34DD83961DEFC004008D2B1D /* 02shatter.mp3 in Resources */,
+				34DD83991DEFC004008D2B1D /* 06squeaky.mp3 in Resources */,
+				34CDBD0C1DE66CC80079C2EB /* 03jump.mp3 in Resources */,
+				34CDBD101DE66CC80079C2EB /* sound4.mp3 in Resources */,
+				34DD83951DEFC004008D2B1D /* 01slap.mp3 in Resources */,
+				34CDBD0F1DE66CC80079C2EB /* sound3.mp3 in Resources */,
+				34CDBD0E1DE66CC80079C2EB /* sound2.mp3 in Resources */,
+				34E8F2351DF89115009137EB /* 99correct.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		346BD8791DE1367300CB18E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346BD8971DE15D1700CB18E1 /* ViewControllerGame.swift in Sources */,
+				346BD8951DE139C200CB18E1 /* ViewControllerMenu.swift in Sources */,
+				346BD8991DE1659000CB18E1 /* ViewControllerScores.swift in Sources */,
+				346BD8811DE1367400CB18E1 /* AppDelegate.swift in Sources */,
+				346BD8931DE1378900CB18E1 /* NavController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		346BD8841DE1367400CB18E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346BD8851DE1367400CB18E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		346BD8891DE1367400CB18E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346BD88A1DE1367400CB18E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		346BD88D1DE1367400CB18E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		346BD88E1DE1367400CB18E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		346BD8901DE1367400CB18E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PYB48LZVD;
+				INFOPLIST_FILE = "SB-Final-Soundz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nmhu.SB-Final-Soundz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		346BD8911DE1367400CB18E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PYB48LZVD;
+				INFOPLIST_FILE = "SB-Final-Soundz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nmhu.SB-Final-Soundz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346BD8781DE1367200CB18E1 /* Build configuration list for PBXProject "SB-Final-Soundz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346BD88D1DE1367400CB18E1 /* Debug */,
+				346BD88E1DE1367400CB18E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346BD88F1DE1367400CB18E1 /* Build configuration list for PBXNativeTarget "SB-Final-Soundz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346BD8901DE1367400CB18E1 /* Debug */,
+				346BD8911DE1367400CB18E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 346BD8751DE1367200CB18E1 /* Project object */;
+}

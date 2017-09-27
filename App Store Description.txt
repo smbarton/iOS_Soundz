@@ -1,0 +1,9 @@
+Shane Barton
+IOS Final App
+
+App Title: Soundz
+App Categories: Games, Entertainment
+App Price Point: $0.99
+
+App Description: 
+Test your memory and hearing with this fun game! Press the right button that matches the sound. Don’t press the wrong one, or the game is over! Includes three levels of difficulty and keeps track of your high scores.
